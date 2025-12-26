@@ -4,18 +4,18 @@
 -- Ejecuta este script en el SQL Editor de Supabase si no ves las vistas en Looker
 -- ============================================================================
 
--- 1. VISTA: looker_leads_complete
+-- 1. VISTA: looker_leads_complete (OPTIMIZADA Y DINÁMICA)
 DROP VIEW IF EXISTS looker_leads_complete CASCADE;
 CREATE VIEW looker_leads_complete AS
 SELECT
     l.id,
     l.name,
     l.pipeline_id,
-    l.pipeline_name,
+    p.name as pipeline_name,
     l.status_id,
-    l.status_name,
+    ps.name as status_name,
     l.responsible_user_id,
-    l.responsible_user_name,
+    u.name as responsible_user_name,
     l.price,
     l.created_at,
     l.updated_at,
@@ -31,6 +31,9 @@ SELECT
     (SELECT COUNT(*) FROM events WHERE lead_id = l.id AND event_type = 'outgoing_chat_message') as messages_sent
 FROM leads l
 LEFT JOIN response_times rt ON l.id = rt.lead_id
+LEFT JOIN pipelines p ON l.pipeline_id = p.id
+LEFT JOIN pipeline_statuses ps ON l.status_id = ps.id
+LEFT JOIN users u ON l.responsible_user_id = u.id
 WHERE l.is_deleted = FALSE;
 
 -- 2. VISTA: user_performance

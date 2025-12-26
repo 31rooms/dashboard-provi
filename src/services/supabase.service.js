@@ -81,9 +81,27 @@ export class SupabaseService {
     }
 
     async getAllLeadIds() {
-        const { data, error } = await supabase.from('leads').select('id');
-        if (error) throw error;
-        return new Set(data.map(l => l.id));
+        let allIds = [];
+        let from = 0;
+        let step = 1000;
+        let hasMore = true;
+
+        while (hasMore) {
+            const { data, error } = await supabase
+                .from('leads')
+                .select('id')
+                .range(from, from + step - 1);
+
+            if (error) throw error;
+
+            if (data.length === 0) {
+                hasMore = false;
+            } else {
+                allIds = allIds.concat(data.map(l => l.id));
+                from += step;
+            }
+        }
+        return new Set(allIds);
     }
 
     async getAllEventIds() {
