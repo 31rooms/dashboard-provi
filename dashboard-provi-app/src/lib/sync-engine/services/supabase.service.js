@@ -109,26 +109,4 @@ export class SupabaseService {
         if (error) throw error;
         return new Set(data.map(e => e.id));
     }
-
-    async clearDatabase() {
-        console.log('🗑️ Limpiando tablas para sincronización limpia...');
-        // El orden es importante por las claves foráneas
-        const cleanupTargets = [
-            { table: 'events', pk: 'id' },
-            { table: 'conversions', pk: 'id' },
-            { table: 'response_times', pk: 'lead_id' },
-            { table: 'leads', pk: 'id' },
-            { table: 'pipeline_statuses', pk: 'id' },
-            { table: 'pipelines', pk: 'id' },
-            { table: 'users', pk: 'id' }
-        ];
-
-        for (const target of cleanupTargets) {
-            const { error } = await this.supabase.from(target.table).delete().neq(target.pk, -1);
-            if (error) {
-                console.warn(`   ⚠️ No se pudo limpiar la tabla ${target.table}: ${error.message}`);
-            }
-        }
-        console.log('✅ Base de datos lista.');
-    }
 }

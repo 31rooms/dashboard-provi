@@ -9,9 +9,6 @@ export async function fullSync(kommoService, supabaseService) {
     logger.info('📦 Iniciando FULL SYNC (carga completa)');
 
     try {
-        // 0. Limpieza (Opcional pero recomendado para Full Sync)
-        await supabaseService.clearDatabase();
-
         // 1. Usuarios
         logger.info('👥 Sincronizando usuarios...');
         const usersRaw = await kommoService.getUsers();
@@ -43,19 +40,20 @@ export async function fullSync(kommoService, supabaseService) {
         const pipelinesMap = Object.fromEntries(pipelinesRaw.map(p => [p.id, p]));
         logger.info(`✓ ${uniquePipelines.length} pipelines y ${uniqueStatuses.length} estados sincronizados`);
 
-        // 3. Leads (REACTIVADO PARA ESTA FASE)
-        logger.info('📋 Sincronizando todos los leads...');
-        const leadsRaw = await kommoService.getAllLeads();
-        const transformedLeads = uniqueByKey(leadsRaw.map(lead =>
-            LeadsTransformer.transform(lead, pipelinesMap, usersMap)
-        ));
+        // 3. Leads (DESACTIVADO POR PETICIÓN DEL USUARIO)
+        logger.info('📋 Leads: Saltando sincronización por configuración del usuario.');
+        const validLeadIds = new Set();
 
-        await supabaseService.upsertLeads(transformedLeads);
-        const validLeadIds = new Set(transformedLeads.map(l => l.id));
-        logger.info(`✓ ${transformedLeads.length} leads sincronizados`);
+        // Cargamos IDs de leads existentes para el filtrado de eventos
+        logger.info('🔍 Recuperando IDs de leads existentes en base de datos...');
+        const existingLeadIds = await supabaseService.getAllLeadIds();
+        existingLeadIds.forEach(id => validLeadIds.add(id));
+        logger.info(`✓ ${validLeadIds.size} IDs de leads recuperados`);
 
-        // Cargamos IDs de eventos existentes (deberían ser 0 después del clear)
-        const existingEventIds = new Set();
+        // Cargamos IDs de eventos existentes para omitir duplicados
+        logger.info('🔍 Recuperando IDs de eventos ya sincronizados...');
+        const existingEventIds = await supabaseService.getAllEventIds();
+        logger.info(`✓ ${existingEventIds.size} eventos ya existen en base de datos`);
 
         // 4. Eventos (últimos 90 días)
         logger.info('📅 Sincronizando eventos (90 días)...');

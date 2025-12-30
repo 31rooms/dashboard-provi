@@ -1,0 +1,3839 @@
+{
+  "pipelines": [
+    {
+      "id": 12290640,
+      "name": "PARAISO CAUCEL V2",
+      "sort": 1,
+      "is_main": true,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 94992424,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 94992428,
+          "name": "Primer contacto enviado",
+          "sort": 20,
+          "color": "#ffeab2"
+        },
+        {
+          "id": 94992432,
+          "name": "En conversación",
+          "sort": 30,
+          "color": "#fffd7f"
+        },
+        {
+          "id": 94992436,
+          "name": "Pregunta 2 enviada - Detalles",
+          "sort": 40,
+          "color": "#f9deff"
+        },
+        {
+          "id": 95364564,
+          "name": "Oferta de agendamiento enviada",
+          "sort": 50,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 96397620,
+          "name": "Round Robin",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 98066904,
+          "name": "Seguimiento Remarketing",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96360112,
+          "name": "Para Seguimiento Manual",
+          "sort": 80,
+          "color": "#c1e0ff"
+        },
+        {
+          "id": 96579384,
+          "name": "Seguimiento manual",
+          "sort": 90,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 95364568,
+          "name": "Cita agendada",
+          "sort": 100,
+          "color": "#ebffb1"
+        },
+        {
+          "id": 95364572,
+          "name": "Cancelación/No-show",
+          "sort": 110,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 95364580,
+          "name": "Negociación activa",
+          "sort": 120,
+          "color": "#c1e0ff"
+        },
+        {
+          "id": 95538088,
+          "name": "Apartado Realizado",
+          "sort": 130,
+          "color": "#99ccff"
+        },
+        {
+          "id": 95536480,
+          "name": "En espera de firma de contrato/Escritura",
+          "sort": 140,
+          "color": "#99ccff"
+        },
+        {
+          "id": 98428743,
+          "name": "CLIENTE FUTURO",
+          "sort": 150,
+          "color": "#99ccff"
+        },
+        {
+          "id": 95364588,
+          "name": "Sin respuesta - Recuperación",
+          "sort": 160,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 95364584,
+          "name": "Nurturing/En pausa",
+          "sort": 170,
+          "color": "#98cbff"
+        },
+        {
+          "id": 142,
+          "name": "Ganado",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Ventas Perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 8446603,
+      "name": "old - BOSQUES DE CHOLUL",
+      "sort": 2,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 66798407,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 66798411,
+          "name": "Contacto inicial",
+          "sort": 20,
+          "color": "#f2f3f4"
+        },
+        {
+          "id": 66799471,
+          "name": "Seguimiento - Sin respuesta",
+          "sort": 30,
+          "color": "#ffc8c8"
+        },
+        {
+          "id": 66798415,
+          "name": "Seguimiento",
+          "sort": 40,
+          "color": "#fff000"
+        },
+        {
+          "id": 73688879,
+          "name": "Esperando confirmación de cita",
+          "sort": 50,
+          "color": "#f3beff"
+        },
+        {
+          "id": 67783379,
+          "name": "Cliente futuro",
+          "sort": 60,
+          "color": "#98cbff"
+        },
+        {
+          "id": 73688883,
+          "name": "Cumbres de San Pedro",
+          "sort": 70,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 76556728,
+          "name": "Portal San Pedro",
+          "sort": 80,
+          "color": "#ffeab2"
+        },
+        {
+          "id": 73688887,
+          "name": "Paraíso Caucel",
+          "sort": 90,
+          "color": "#98cbff"
+        },
+        {
+          "id": 66799487,
+          "name": "Inmobiliaria",
+          "sort": 100,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 67148923,
+          "name": "Laboral",
+          "sort": 110,
+          "color": "#f2f3f4"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12535008,
+      "name": "CUMBRES DE SAN PEDRO V2",
+      "sort": 3,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 96820472,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 96820476,
+          "name": "PRIMER CONTACTO",
+          "sort": 10,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820480,
+          "name": "EN CONVERSACIÓN IA",
+          "sort": 20,
+          "color": "#ffff99"
+        },
+        {
+          "id": 96820484,
+          "name": "OFERTA DE AGENDAMIENTO ENVIADA",
+          "sort": 30,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 98167616,
+          "name": "SEGUIMIENTO REMARKETING",
+          "sort": 40,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820676,
+          "name": "PARA SEGUIMIENTO MANUAL",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820680,
+          "name": "EN SEGUIMIENTO MANUAL",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820684,
+          "name": "CITA AGENDADA",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820688,
+          "name": "CANCELACIÓN / NO SHOW",
+          "sort": 80,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820692,
+          "name": "NEGOCIACIÓN ACTIVA",
+          "sort": 90,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820696,
+          "name": "APARTADO REALIZADO",
+          "sort": 100,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820700,
+          "name": "FIRMA DE CONTRATO / ESCRITURACIÓN",
+          "sort": 110,
+          "color": "#99ccff"
+        },
+        {
+          "id": 98428719,
+          "name": "CLIENTE FUTURO",
+          "sort": 120,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820708,
+          "name": "SIN RESPUESTA - RECUPERACIÓN",
+          "sort": 130,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820712,
+          "name": "NURTURING",
+          "sort": 140,
+          "color": "#99ccff"
+        },
+        {
+          "id": 142,
+          "name": "GANADOS",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "VENTA PERDIDA",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12535020,
+      "name": "BOSQUES DE CHOLUL V2",
+      "sort": 4,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 96820552,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 96820556,
+          "name": "PRIMER CONTACTO",
+          "sort": 10,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820560,
+          "name": "EN CONVERSACIÓN IA",
+          "sort": 20,
+          "color": "#ffff99"
+        },
+        {
+          "id": 96820564,
+          "name": "OFERTA DE AGENDAMIENTO ENVIADA",
+          "sort": 30,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 98065080,
+          "name": "Seguimiento - Rematketing",
+          "sort": 40,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024316,
+          "name": "PARA SEGUIMIENTO MANUAL",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024320,
+          "name": "EN SEGUIMIENTO MANUAL",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024324,
+          "name": "CITA AGENDADA",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024328,
+          "name": "CANCELADO / NO SHOW",
+          "sort": 80,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024332,
+          "name": "NEGOCIACIÓN ACTIVA",
+          "sort": 90,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024336,
+          "name": "APARTADO REALIZADO",
+          "sort": 100,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024340,
+          "name": "FIRMA DE CONTRATO / ESCRITURACIÓN",
+          "sort": 110,
+          "color": "#99ccff"
+        },
+        {
+          "id": 98428767,
+          "name": "CLIENTE FUTURO",
+          "sort": 120,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024376,
+          "name": "SIN RESPUESTA / RECUPERACIÓN",
+          "sort": 130,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97024380,
+          "name": "NURTURING",
+          "sort": 140,
+          "color": "#99ccff"
+        },
+        {
+          "id": 142,
+          "name": "Closed - won",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Closed - lost",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11780348,
+      "name": "BROKERS",
+      "sort": 5,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 90650672,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 90650676,
+          "name": "ENTRANTES",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 90725068,
+          "name": "INTEGRACIÓN ASESORES",
+          "sort": 30,
+          "color": "#99ccff"
+        },
+        {
+          "id": 90650680,
+          "name": "CONTACTADO",
+          "sort": 40,
+          "color": "#ffff99"
+        },
+        {
+          "id": 90650684,
+          "name": "CAPACITADO",
+          "sort": 50,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12535016,
+      "name": "OTROS TEMAS",
+      "sort": 6,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 96820536,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 96820540,
+          "name": "Initial Contact",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96820544,
+          "name": "Offer made",
+          "sort": 30,
+          "color": "#ffff99"
+        },
+        {
+          "id": 96820548,
+          "name": "Negotiation",
+          "sort": 40,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 142,
+          "name": "Closed - won",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Closed - lost",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12593792,
+      "name": "RMKT - BOSQUES",
+      "sort": 7,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 97253832,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 97253836,
+          "name": "PARA INICIAR CONTACTO",
+          "sort": 10,
+          "color": "#99ccff"
+        },
+        {
+          "id": 98045468,
+          "name": "Mensajes con error",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97253840,
+          "name": "MENSAJE 1",
+          "sort": 30,
+          "color": "#ffff99"
+        },
+        {
+          "id": 97253844,
+          "name": "MENSAJE 2",
+          "sort": 40,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 97253880,
+          "name": "MENSAJE 3",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97253884,
+          "name": "MENSAJE 4",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 142,
+          "name": "MENSAJE 5",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Ventas Perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12536364,
+      "name": "RMKT - CUMBRES",
+      "sort": 8,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 96830368,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 96830372,
+          "name": "PARA INICIAR CONTACTO",
+          "sort": 10,
+          "color": "#99ccff"
+        },
+        {
+          "id": 98166124,
+          "name": "Mensaje de error",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96830376,
+          "name": "MENSAJE 1",
+          "sort": 30,
+          "color": "#ffff99"
+        },
+        {
+          "id": 96830380,
+          "name": "MENSAJE 2",
+          "sort": 40,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 96830404,
+          "name": "MENSAJE 3",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96830408,
+          "name": "MENSAJE 4",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96830412,
+          "name": "MENSAJE 5",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 97533360,
+          "name": "Pendiente",
+          "sort": 80,
+          "color": "#99ccff"
+        },
+        {
+          "id": 142,
+          "name": "Closed - won",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Closed - lost",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12536536,
+      "name": "RMKT - CAUCEL",
+      "sort": 9,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 96831612,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 96831616,
+          "name": "EN ESPERA",
+          "sort": 10,
+          "color": "#99ccff"
+        },
+        {
+          "id": 98045072,
+          "name": "Error de envio de mensaje",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96831620,
+          "name": "MENSAJE 1",
+          "sort": 30,
+          "color": "#ffff99"
+        },
+        {
+          "id": 96831624,
+          "name": "MENSAJE 2",
+          "sort": 40,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 96831648,
+          "name": "MENSAJE 3",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96831652,
+          "name": "MENSAJE 4",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96831656,
+          "name": "MENSAJE 5",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 142,
+          "name": "Closed - won",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Closed - lost",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 10446731,
+      "name": "BC - BROKERS INMOBILIARIOS",
+      "sort": 10,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 80102211,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 80102215,
+          "name": "Entrantes",
+          "sort": 20,
+          "color": "#c1e0ff"
+        },
+        {
+          "id": 84474228,
+          "name": "Contactado",
+          "sort": 30,
+          "color": "#deff81"
+        },
+        {
+          "id": 80102219,
+          "name": "Capacitado",
+          "sort": 40,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 10934024,
+      "name": "BC - CLIENTES DE BROKERS",
+      "sort": 11,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 83858688,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 83859516,
+          "name": "Cliente Interesado",
+          "sort": 20,
+          "color": "#c1e0ff"
+        },
+        {
+          "id": 83858692,
+          "name": "Cita",
+          "sort": 30,
+          "color": "#deff81"
+        },
+        {
+          "id": 83858696,
+          "name": "Visitado",
+          "sort": 40,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 83858700,
+          "name": "Negociación",
+          "sort": 50,
+          "color": "#fff000"
+        },
+        {
+          "id": 83859472,
+          "name": "Apartado",
+          "sort": 60,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11780356,
+      "name": "PC - CLIENTES BROKERS",
+      "sort": 12,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 90650708,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 90650712,
+          "name": "cliente interesado",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 90650716,
+          "name": "cita",
+          "sort": 30,
+          "color": "#ffff99"
+        },
+        {
+          "id": 90650720,
+          "name": "visitado",
+          "sort": 40,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 90658468,
+          "name": "cita cancelada",
+          "sort": 50,
+          "color": "#ff8f92"
+        },
+        {
+          "id": 90658364,
+          "name": "negociación",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 90658368,
+          "name": "apartado",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 10438835,
+      "name": "IA - BOSQUES DE CHOLUL",
+      "sort": 13,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 80040095,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 80040099,
+          "name": "Contacto Inicial",
+          "sort": 20,
+          "color": "#f2f3f4"
+        },
+        {
+          "id": 93030868,
+          "name": "ROUND ROBIN",
+          "sort": 30,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 81670236,
+          "name": "SEGUIMIENTO 1",
+          "sort": 40,
+          "color": "#99ccff"
+        },
+        {
+          "id": 87142404,
+          "name": "RMK DAVALIA",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 87933188,
+          "name": "MSJ CASA BIANCA",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 82969904,
+          "name": "REMARKETING",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 91882116,
+          "name": "PROMO SEPTIEMBRE",
+          "sort": 80,
+          "color": "#99ccff"
+        },
+        {
+          "id": 83341856,
+          "name": "Prospectador",
+          "sort": 90,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 80041675,
+          "name": "Cliente Futuro",
+          "sort": 100,
+          "color": "#98cbff"
+        },
+        {
+          "id": 80041679,
+          "name": "Cita Agendada (BOT)",
+          "sort": 110,
+          "color": "#deff81"
+        },
+        {
+          "id": 80041683,
+          "name": "Asesores Externos (BOT)",
+          "sort": 120,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 80041687,
+          "name": "Ofreciendo Otro Desarrollo",
+          "sort": 130,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11752652,
+      "name": "ALEJANDRO LÓPEZ",
+      "sort": 14,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 90407568,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 90407572,
+          "name": "Interesado",
+          "sort": 10,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 94916900,
+          "name": "FORMULARIOS",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 93030064,
+          "name": "CLIENTES ASIGNADOS (BOT)",
+          "sort": 30,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 90407576,
+          "name": "Contactado",
+          "sort": 40,
+          "color": "#98cbff"
+        },
+        {
+          "id": 94916984,
+          "name": "SEGUIMIENTO",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 90407580,
+          "name": "Cita",
+          "sort": 60,
+          "color": "#deff81"
+        },
+        {
+          "id": 90409380,
+          "name": "Visitado",
+          "sort": 70,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 90409384,
+          "name": "Negociación",
+          "sort": 80,
+          "color": "#fff000"
+        },
+        {
+          "id": 90409388,
+          "name": "Apartado",
+          "sort": 90,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 10446135,
+      "name": "IA - PARAÍSO CAUCEL",
+      "sort": 15,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 80097783,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 80097787,
+          "name": "Contacto Inicial",
+          "sort": 20,
+          "color": "#f2f3f4"
+        },
+        {
+          "id": 81846748,
+          "name": "Seguimiento 1",
+          "sort": 30,
+          "color": "#98cbff"
+        },
+        {
+          "id": 83339568,
+          "name": "Prospectador",
+          "sort": 40,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 80098035,
+          "name": "Cliente Futuro",
+          "sort": 50,
+          "color": "#c1e0ff"
+        },
+        {
+          "id": 80098039,
+          "name": "Cita Agendada",
+          "sort": 60,
+          "color": "#deff81"
+        },
+        {
+          "id": 80098043,
+          "name": "Asesores Externos",
+          "sort": 70,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 80098047,
+          "name": "Ofreciendo Otro Desarrollo",
+          "sort": 80,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 88350000,
+          "name": "Apartado",
+          "sort": 90,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 10446259,
+      "name": "GERARDO MUNGUIA",
+      "sort": 16,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 80098611,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 80098615,
+          "name": "Interesado",
+          "sort": 10,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 94830824,
+          "name": "FORMULARIO",
+          "sort": 20,
+          "color": "#fffeb2"
+        },
+        {
+          "id": 93030216,
+          "name": "CLIENTES ASIGNADOS (BOT)",
+          "sort": 30,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 80098619,
+          "name": "Contactado",
+          "sort": 40,
+          "color": "#98cbff"
+        },
+        {
+          "id": 94994984,
+          "name": "SEGUIMIENTO",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 80098623,
+          "name": "Cita",
+          "sort": 60,
+          "color": "#deff81"
+        },
+        {
+          "id": 80098671,
+          "name": "Visitado",
+          "sort": 70,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 80098675,
+          "name": "Negociación",
+          "sort": 80,
+          "color": "#fff000"
+        },
+        {
+          "id": 86357068,
+          "name": "Toma de decisión",
+          "sort": 90,
+          "color": "#ff8f92"
+        },
+        {
+          "id": 80098679,
+          "name": "Apartado",
+          "sort": 100,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11076536,
+      "name": "LILIA LÓPEZ",
+      "sort": 17,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 84975264,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 84975476,
+          "name": "Interesado",
+          "sort": 10,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 95424480,
+          "name": "FORMULARIO",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 93030224,
+          "name": "CLIENTES ASIGNADOS (BOT)",
+          "sort": 30,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 84975268,
+          "name": "Contactado",
+          "sort": 40,
+          "color": "#99ccff"
+        },
+        {
+          "id": 95424484,
+          "name": "SEGUIMIENTO",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 84975272,
+          "name": "Cita",
+          "sort": 60,
+          "color": "#deff81"
+        },
+        {
+          "id": 84975276,
+          "name": "Visitado",
+          "sort": 70,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 84975480,
+          "name": "Negociación",
+          "sort": 80,
+          "color": "#fff000"
+        },
+        {
+          "id": 91544788,
+          "name": "TOMA DE DECISIÓN",
+          "sort": 90,
+          "color": "#99ccff"
+        },
+        {
+          "id": 84975484,
+          "name": "Apartado",
+          "sort": 100,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11749756,
+      "name": "CELINA MARTÍN",
+      "sort": 18,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 90381780,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 90381784,
+          "name": "Interesado",
+          "sort": 10,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 95424564,
+          "name": "FORMULARIO",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 93030240,
+          "name": "CLIENTES ASIGNADOS (BOT)",
+          "sort": 30,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 90381788,
+          "name": "Contactado",
+          "sort": 40,
+          "color": "#98cbff"
+        },
+        {
+          "id": 95424568,
+          "name": "SEGUIMIENTO",
+          "sort": 50,
+          "color": "#fff000"
+        },
+        {
+          "id": 90381844,
+          "name": "Cita",
+          "sort": 60,
+          "color": "#deff81"
+        },
+        {
+          "id": 90381848,
+          "name": "Visitado",
+          "sort": 70,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 90381792,
+          "name": "Negociación",
+          "sort": 80,
+          "color": "#fff000"
+        },
+        {
+          "id": 90381852,
+          "name": "Apartado",
+          "sort": 90,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11874304,
+      "name": "GIULIANA VARELA",
+      "sort": 19,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 91473380,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 91473384,
+          "name": "Contacto inicial",
+          "sort": 10,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 95424596,
+          "name": "FORMULARIO",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 93030452,
+          "name": "CLIENTES ASIGNADOS (BOT)",
+          "sort": 30,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 91473388,
+          "name": "Contactado",
+          "sort": 40,
+          "color": "#98cbff"
+        },
+        {
+          "id": 95424616,
+          "name": "SEGUIMIENTO",
+          "sort": 50,
+          "color": "#fff000"
+        },
+        {
+          "id": 91473392,
+          "name": "Cita",
+          "sort": 60,
+          "color": "#deff81"
+        },
+        {
+          "id": 91473564,
+          "name": "Visitado",
+          "sort": 70,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 91473568,
+          "name": "Apartado",
+          "sort": 80,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11116916,
+      "name": "EMILIO GUZMAN",
+      "sort": 20,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 85293800,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 85293804,
+          "name": "Interesados",
+          "sort": 20,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 85293836,
+          "name": "Contactado",
+          "sort": 30,
+          "color": "#99ccff"
+        },
+        {
+          "id": 88240552,
+          "name": "CLIENTES ALEJANDRO",
+          "sort": 40,
+          "color": "#ff8f92"
+        },
+        {
+          "id": 85293840,
+          "name": "Cita",
+          "sort": 50,
+          "color": "#deff81"
+        },
+        {
+          "id": 85293844,
+          "name": "Visitado (En contacto)",
+          "sort": 60,
+          "color": "#fff000"
+        },
+        {
+          "id": 85293808,
+          "name": "Negociación (Revisión de crédito)",
+          "sort": 70,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 86346788,
+          "name": "Toma de decisión (Viendo opciones)",
+          "sort": 80,
+          "color": "#ff8f92"
+        },
+        {
+          "id": 85293848,
+          "name": "Apartado",
+          "sort": 90,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 10446451,
+      "name": "IA - CUMBRES DE SAN PEDRO",
+      "sort": 21,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 80100115,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 80100119,
+          "name": "Contacto Inicial",
+          "sort": 10,
+          "color": "#f2f3f4"
+        },
+        {
+          "id": 93032068,
+          "name": "ROUND ROBIN",
+          "sort": 20,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 94855552,
+          "name": "REMARKETING",
+          "sort": 30,
+          "color": "#99ccff"
+        },
+        {
+          "id": 82796984,
+          "name": "seguimiento",
+          "sort": 40,
+          "color": "#99ccff"
+        },
+        {
+          "id": 87247384,
+          "name": "Belén",
+          "sort": 50,
+          "color": "#ff8f92"
+        },
+        {
+          "id": 81509600,
+          "name": "PROMO SEPTIEMBRE",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 83336484,
+          "name": "PROSPECTADOR",
+          "sort": 70,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 80100123,
+          "name": "Interacción Activa",
+          "sort": 80,
+          "color": "#ebffb1"
+        },
+        {
+          "id": 80100127,
+          "name": "Interacción Pasiva",
+          "sort": 90,
+          "color": "#ffc8c8"
+        },
+        {
+          "id": 80100219,
+          "name": "Cliente Futuro",
+          "sort": 100,
+          "color": "#98cbff"
+        },
+        {
+          "id": 80100223,
+          "name": "Cita Agendada",
+          "sort": 110,
+          "color": "#deff81"
+        },
+        {
+          "id": 80100231,
+          "name": "Ofreciendo Otro Desarrollo",
+          "sort": 120,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 80100227,
+          "name": "Asesores Externos",
+          "sort": 130,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11463472,
+      "name": "RICARDO CORTES",
+      "sort": 22,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 88018772,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 88018776,
+          "name": "Interesado",
+          "sort": 10,
+          "color": "#99ccff"
+        },
+        {
+          "id": 95424944,
+          "name": "FORMULARIO",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 93030268,
+          "name": "CLIENTES ASIGNADOS (BOT)",
+          "sort": 30,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 88018780,
+          "name": "Contactado",
+          "sort": 40,
+          "color": "#ffff99"
+        },
+        {
+          "id": 94846392,
+          "name": "SEGUIMIENTO",
+          "sort": 50,
+          "color": "#99ccff"
+        },
+        {
+          "id": 88018784,
+          "name": "Cita",
+          "sort": 60,
+          "color": "#deff81"
+        },
+        {
+          "id": 88018848,
+          "name": "Visitado",
+          "sort": 70,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 88018852,
+          "name": "Negociacion",
+          "sort": 80,
+          "color": "#fff000"
+        },
+        {
+          "id": 91527676,
+          "name": "toma de decisión",
+          "sort": 90,
+          "color": "#99ccff"
+        },
+        {
+          "id": 89340344,
+          "name": "Apartado",
+          "sort": 100,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 10448055,
+      "name": "PORTAL SAN PEDRO",
+      "sort": 23,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 80113515,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 80113519,
+          "name": "Contacto inicial (IA)",
+          "sort": 20,
+          "color": "#e6e8ea"
+        },
+        {
+          "id": 89570808,
+          "name": "Seguimiento (IA)",
+          "sort": 30,
+          "color": "#99ccff"
+        },
+        {
+          "id": 80113527,
+          "name": "RMKT (PLANTILLA)",
+          "sort": 40,
+          "color": "#f3beff"
+        },
+        {
+          "id": 80156331,
+          "name": "ULTIMA CASA",
+          "sort": 50,
+          "color": "#ff8f92"
+        },
+        {
+          "id": 80113523,
+          "name": "Ruleta (BOT)",
+          "sort": 60,
+          "color": "#ebffb1"
+        },
+        {
+          "id": 80156315,
+          "name": "Cliente Futuro",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 80156319,
+          "name": "Cita Agendada (BOT)",
+          "sort": 80,
+          "color": "#deff81"
+        },
+        {
+          "id": 80156323,
+          "name": "Asesores Externos",
+          "sort": 90,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 80156327,
+          "name": "Ofreciendo OTRO DESARROLLO",
+          "sort": 100,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11066812,
+      "name": "EMBUDO DE TRABAJO",
+      "sort": 24,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 84900108,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 84900112,
+          "name": "Contacto de trabajo",
+          "sort": 20,
+          "color": "#fff000"
+        },
+        {
+          "id": 84900116,
+          "name": "Proveedor de servicios",
+          "sort": 30,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11648156,
+      "name": "PORTAL - JORGE",
+      "sort": 25,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 89482208,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 89482212,
+          "name": "Interesado",
+          "sort": 20,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 89482568,
+          "name": "Contactado",
+          "sort": 30,
+          "color": "#98cbff"
+        },
+        {
+          "id": 89482572,
+          "name": "Cita",
+          "sort": 40,
+          "color": "#deff81"
+        },
+        {
+          "id": 89482576,
+          "name": "Visitado",
+          "sort": 50,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 89482216,
+          "name": "Negociación",
+          "sort": 60,
+          "color": "#fff000"
+        },
+        {
+          "id": 90174376,
+          "name": "Cliente Futuro",
+          "sort": 70,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 89482220,
+          "name": "Apartado",
+          "sort": 80,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 11648152,
+      "name": "PORTAL - RICARDO",
+      "sort": 26,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 89482192,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 89482196,
+          "name": "Interesado",
+          "sort": 20,
+          "color": "#d6eaff"
+        },
+        {
+          "id": 89482560,
+          "name": "Contactado",
+          "sort": 30,
+          "color": "#98cbff"
+        },
+        {
+          "id": 90174068,
+          "name": "ENVIO DE FOTOS",
+          "sort": 40,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 89482556,
+          "name": "Cita",
+          "sort": 50,
+          "color": "#deff81"
+        },
+        {
+          "id": 89482564,
+          "name": "Visitado",
+          "sort": 60,
+          "color": "#ccc8f9"
+        },
+        {
+          "id": 89482200,
+          "name": "Negociación",
+          "sort": 70,
+          "color": "#fff000"
+        },
+        {
+          "id": 89482204,
+          "name": "Apartado",
+          "sort": 80,
+          "color": "#87f2c0"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12061308,
+      "name": "CAMPAÑAS ENTRANTES",
+      "sort": 27,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 93071136,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 93071140,
+          "name": "BOSQUES",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 93071144,
+          "name": "CAUCEL",
+          "sort": 30,
+          "color": "#ffff99"
+        },
+        {
+          "id": 93072260,
+          "name": "PC - RR",
+          "sort": 40,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 93071148,
+          "name": "CUMBRES",
+          "sort": 50,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 93073128,
+          "name": "CSP - RR",
+          "sort": 60,
+          "color": "#eb93ff"
+        },
+        {
+          "id": 142,
+          "name": "Leads ganados",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12237268,
+      "name": "JOSUE PINZÓN",
+      "sort": 28,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 94570184,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 94844336,
+          "name": "FORMULARIOS",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 94570188,
+          "name": "ASIGNADOS BOT",
+          "sort": 30,
+          "color": "#99ccff"
+        },
+        {
+          "id": 94570192,
+          "name": "CONTACTADO",
+          "sort": 40,
+          "color": "#ffff99"
+        },
+        {
+          "id": 94570196,
+          "name": "SEGUIMIENTO",
+          "sort": 50,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 94570232,
+          "name": "CITA",
+          "sort": 60,
+          "color": "#99ccff"
+        },
+        {
+          "id": 94846788,
+          "name": "VISITADO",
+          "sort": 70,
+          "color": "#99ccff"
+        },
+        {
+          "id": 94846792,
+          "name": "NEGOCIACIÓN",
+          "sort": 80,
+          "color": "#99ccff"
+        },
+        {
+          "id": 94846796,
+          "name": "TOMA DE DECISIÓN",
+          "sort": 90,
+          "color": "#99ccff"
+        },
+        {
+          "id": 142,
+          "name": "APARTADOS",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Leads perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12237420,
+      "name": "JESUS",
+      "sort": 29,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 94571448,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 94849360,
+          "name": "FORMULARIO",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 94571452,
+          "name": "ASIGNADO POR BOT",
+          "sort": 30,
+          "color": "#99ccff"
+        },
+        {
+          "id": 94571456,
+          "name": "CONTACTADO",
+          "sort": 40,
+          "color": "#ffff99"
+        },
+        {
+          "id": 94571460,
+          "name": "EN SEGUIMIENTO",
+          "sort": 50,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 94571804,
+          "name": "CITA",
+          "sort": 60,
+          "color": "#f9deff"
+        },
+        {
+          "id": 142,
+          "name": "APARTADO",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "DESCARTADOS",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12388316,
+      "name": "MANUEL VIVAS",
+      "sort": 30,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 95725144,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 95725148,
+          "name": "Contacto inicial",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 95725320,
+          "name": "FORMULARIOS",
+          "sort": 30,
+          "color": "#99ccff"
+        },
+        {
+          "id": 95725324,
+          "name": "CONTACTADO",
+          "sort": 40,
+          "color": "#fffd7f"
+        },
+        {
+          "id": 95725328,
+          "name": "SEGUIMIENTO",
+          "sort": 50,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 96025660,
+          "name": "CITA",
+          "sort": 60,
+          "color": "#f3beff"
+        },
+        {
+          "id": 95725152,
+          "name": "Negociación",
+          "sort": 70,
+          "color": "#ffff99"
+        },
+        {
+          "id": 95725156,
+          "name": "APARTADO",
+          "sort": 80,
+          "color": "#deff81"
+        },
+        {
+          "id": 142,
+          "name": "FIRMADO",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Ventas Perdidos",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12425860,
+      "name": "Ethel Flota",
+      "sort": 31,
+      "is_main": false,
+      "is_archive": true,
+      "statuses": [
+        {
+          "id": 95996040,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 95996076,
+          "name": "FORMULARIO",
+          "sort": 20,
+          "color": "#99ccff"
+        },
+        {
+          "id": 95996044,
+          "name": "Contactado",
+          "sort": 30,
+          "color": "#fffd7f"
+        },
+        {
+          "id": 95996288,
+          "name": "seguimiento",
+          "sort": 40,
+          "color": "#ffce5a"
+        },
+        {
+          "id": 95996048,
+          "name": "Negociación",
+          "sort": 50,
+          "color": "#ffff99"
+        },
+        {
+          "id": 95996292,
+          "name": "cita",
+          "sort": 60,
+          "color": "#f3beff"
+        },
+        {
+          "id": 95996052,
+          "name": "Tomar decisión",
+          "sort": 70,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 142,
+          "name": "apartado",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "descartado",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    },
+    {
+      "id": 12535228,
+      "name": "PORTAL SAN PEDRO V2",
+      "sort": 32,
+      "is_main": false,
+      "is_archive": false,
+      "statuses": [
+        {
+          "id": 96822608,
+          "name": "Leads Entrantes",
+          "sort": 10,
+          "color": "#c1c1c1"
+        },
+        {
+          "id": 96822612,
+          "name": "LEADS FUTUROS",
+          "sort": 10,
+          "color": "#99ccff"
+        },
+        {
+          "id": 96822616,
+          "name": "Offer made",
+          "sort": 20,
+          "color": "#ffff99"
+        },
+        {
+          "id": 96822620,
+          "name": "Negotiation",
+          "sort": 30,
+          "color": "#ffcc66"
+        },
+        {
+          "id": 142,
+          "name": "Closed - won",
+          "sort": 10000,
+          "color": "#CCFF66"
+        },
+        {
+          "id": 143,
+          "name": "Closed - lost",
+          "sort": 11000,
+          "color": "#D5D8DB"
+        }
+      ]
+    }
+  ],
+  "custom_fields": {
+    "leads": [
+      {
+        "id": 1681784,
+        "name": "utm_content",
+        "code": "UTM_CONTENT",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 546,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681786,
+        "name": "utm_medium",
+        "code": "UTM_MEDIUM",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 547,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681788,
+        "name": "utm_campaign",
+        "code": "UTM_CAMPAIGN",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 548,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681790,
+        "name": "utm_source",
+        "code": "UTM_SOURCE",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 549,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681792,
+        "name": "utm_term",
+        "code": "UTM_TERM",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 550,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681794,
+        "name": "utm_referrer",
+        "code": "UTM_REFERRER",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 551,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681796,
+        "name": "referrer",
+        "code": "REFERRER",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 552,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681798,
+        "name": "gclientid",
+        "code": "GCLIENTID",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 553,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681800,
+        "name": "gclid",
+        "code": "GCLID",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 554,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681802,
+        "name": "fbclid",
+        "code": "FBCLID",
+        "type": "tracking_data",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 555,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 2093478,
+        "name": "Cita agendada",
+        "code": null,
+        "type": "checkbox",
+        "type_id": 28,
+        "type_name": "Checkbox",
+        "entity_type": "leads",
+        "sort": 508,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2093480,
+        "name": "Visitado",
+        "code": null,
+        "type": "checkbox",
+        "type_id": 28,
+        "type_name": "Checkbox",
+        "entity_type": "leads",
+        "sort": 510,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2093484,
+        "name": "Desarrollo",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 502,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370448,
+            "value": "Bosques de Cholul",
+            "sort": 500
+          },
+          {
+            "id": 1370450,
+            "value": "Paraíso Caucel",
+            "sort": 1
+          },
+          {
+            "id": 1370452,
+            "value": "Cumbres de San Pedro",
+            "sort": 2
+          },
+          {
+            "id": 1370454,
+            "value": "Portal San Pedro",
+            "sort": 3
+          }
+        ]
+      },
+      {
+        "id": 2093540,
+        "name": "Fuente",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 511,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370506,
+            "value": "Facebook Ads",
+            "sort": 500
+          },
+          {
+            "id": 1370508,
+            "value": "Instagram Ads",
+            "sort": 1
+          },
+          {
+            "id": 1370510,
+            "value": "TikTok",
+            "sort": 2
+          },
+          {
+            "id": 1370512,
+            "value": "Sitio Web",
+            "sort": 3
+          },
+          {
+            "id": 1370514,
+            "value": "Casa Muestra",
+            "sort": 4
+          },
+          {
+            "id": 1370516,
+            "value": "Orgánico",
+            "sort": 5
+          },
+          {
+            "id": 1370518,
+            "value": "Valla Móvil",
+            "sort": 6
+          },
+          {
+            "id": 1370520,
+            "value": "Espectacular",
+            "sort": 7
+          },
+          {
+            "id": 1370522,
+            "value": "Cartelera",
+            "sort": 8
+          },
+          {
+            "id": 1370524,
+            "value": "Referido",
+            "sort": 9
+          },
+          {
+            "id": 1370858,
+            "value": "Otro Desarrollo",
+            "sort": 10
+          },
+          {
+            "id": 1370860,
+            "value": "Campaña Vendedor",
+            "sort": 11
+          },
+          {
+            "id": 1371566,
+            "value": "Cliente",
+            "sort": 12
+          }
+        ]
+      },
+      {
+        "id": 2093542,
+        "name": "Medio",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 512,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370526,
+            "value": "WhatsApp",
+            "sort": 500
+          },
+          {
+            "id": 1370528,
+            "value": "Llamada",
+            "sort": 1
+          },
+          {
+            "id": 1370530,
+            "value": "Formulario",
+            "sort": 2
+          },
+          {
+            "id": 1370532,
+            "value": "En persona",
+            "sort": 3
+          },
+          {
+            "id": 1370718,
+            "value": "Correo",
+            "sort": 4
+          }
+        ]
+      },
+      {
+        "id": 2093544,
+        "name": "Modelo",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 503,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370534,
+            "value": "Davalia Plus",
+            "sort": 500
+          },
+          {
+            "id": 1370536,
+            "value": "Bianca Plus",
+            "sort": 1
+          },
+          {
+            "id": 1370538,
+            "value": "Amelia Plus",
+            "sort": 2
+          },
+          {
+            "id": 1370540,
+            "value": "Aqua Plus",
+            "sort": 3
+          },
+          {
+            "id": 1370542,
+            "value": "Vento",
+            "sort": 4
+          },
+          {
+            "id": 1370544,
+            "value": "Belén",
+            "sort": 5
+          },
+          {
+            "id": 1370862,
+            "value": "Todos",
+            "sort": 6
+          },
+          {
+            "id": 1371274,
+            "value": "Samaria",
+            "sort": 7
+          }
+        ]
+      },
+      {
+        "id": 2093548,
+        "name": "Tipo de crédito",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 506,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370546,
+            "value": "Infonavit",
+            "sort": 500
+          },
+          {
+            "id": 1370548,
+            "value": "Cofinavit",
+            "sort": 1
+          },
+          {
+            "id": 1370550,
+            "value": "Fovissste",
+            "sort": 2
+          },
+          {
+            "id": 1370552,
+            "value": "Fovissste para todos",
+            "sort": 3
+          },
+          {
+            "id": 1370554,
+            "value": "Bancario",
+            "sort": 4
+          },
+          {
+            "id": 1370556,
+            "value": "Pemex",
+            "sort": 5
+          },
+          {
+            "id": 1370558,
+            "value": "Recurso propio",
+            "sort": 6
+          },
+          {
+            "id": 1370560,
+            "value": "Imss",
+            "sort": 7
+          },
+          {
+            "id": 1370562,
+            "value": "Issfam",
+            "sort": 8
+          },
+          {
+            "id": 1370564,
+            "value": "Fideicomiso",
+            "sort": 9
+          }
+        ]
+      },
+      {
+        "id": 2093550,
+        "name": "Fecha de cita",
+        "code": null,
+        "type": "date_time",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "leads",
+        "sort": 509,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2093552,
+        "name": "Tiempo de compra",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 504,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370566,
+            "value": "Inmediata",
+            "sort": 500
+          },
+          {
+            "id": 1370568,
+            "value": "3 a 6 meses",
+            "sort": 1
+          },
+          {
+            "id": 1370570,
+            "value": "+ 6 meses",
+            "sort": 2
+          }
+        ]
+      },
+      {
+        "id": 2093556,
+        "name": "Motivo",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 505,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370578,
+            "value": "Vivir",
+            "sort": 500
+          },
+          {
+            "id": 1370580,
+            "value": "Invertir",
+            "sort": 1
+          },
+          {
+            "id": 1370582,
+            "value": "Asesor externo",
+            "sort": 2
+          }
+        ]
+      },
+      {
+        "id": 2093624,
+        "name": "Estado",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 507,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370654,
+            "value": "Aguascalientes",
+            "sort": 500
+          },
+          {
+            "id": 1370656,
+            "value": "Baja California",
+            "sort": 1
+          },
+          {
+            "id": 1370658,
+            "value": "Baja California Sur",
+            "sort": 2
+          },
+          {
+            "id": 1370660,
+            "value": "Campeche",
+            "sort": 3
+          },
+          {
+            "id": 1370662,
+            "value": "Chiapas",
+            "sort": 4
+          },
+          {
+            "id": 1370664,
+            "value": "Chihuahua",
+            "sort": 5
+          },
+          {
+            "id": 1370666,
+            "value": "Ciudad de México",
+            "sort": 6
+          },
+          {
+            "id": 1370668,
+            "value": "Coahuila",
+            "sort": 7
+          },
+          {
+            "id": 1370670,
+            "value": "Colima",
+            "sort": 8
+          },
+          {
+            "id": 1370672,
+            "value": "Durango",
+            "sort": 9
+          },
+          {
+            "id": 1370674,
+            "value": "Estado de México",
+            "sort": 10
+          },
+          {
+            "id": 1370676,
+            "value": "Guanajuato",
+            "sort": 11
+          },
+          {
+            "id": 1370678,
+            "value": "Guerrero",
+            "sort": 12
+          },
+          {
+            "id": 1370680,
+            "value": "Hidalgo",
+            "sort": 13
+          },
+          {
+            "id": 1370682,
+            "value": "Jalisco",
+            "sort": 14
+          },
+          {
+            "id": 1370684,
+            "value": "Michoacán",
+            "sort": 15
+          },
+          {
+            "id": 1370686,
+            "value": "Morelos",
+            "sort": 16
+          },
+          {
+            "id": 1370688,
+            "value": "Nayarit",
+            "sort": 17
+          },
+          {
+            "id": 1370690,
+            "value": "Nuevo León",
+            "sort": 18
+          },
+          {
+            "id": 1370692,
+            "value": "Oaxaca",
+            "sort": 19
+          },
+          {
+            "id": 1370694,
+            "value": "Puebla",
+            "sort": 20
+          },
+          {
+            "id": 1370696,
+            "value": "Querétaro",
+            "sort": 21
+          },
+          {
+            "id": 1370698,
+            "value": "Quintana Roo",
+            "sort": 22
+          },
+          {
+            "id": 1370700,
+            "value": "San Luis Potosí",
+            "sort": 23
+          },
+          {
+            "id": 1370702,
+            "value": "Sinaloa",
+            "sort": 24
+          },
+          {
+            "id": 1370704,
+            "value": "Sonora",
+            "sort": 25
+          },
+          {
+            "id": 1370706,
+            "value": "Tabasco",
+            "sort": 26
+          },
+          {
+            "id": 1370708,
+            "value": "Tamaulipas",
+            "sort": 27
+          },
+          {
+            "id": 1370710,
+            "value": "Tlaxcala",
+            "sort": 28
+          },
+          {
+            "id": 1370712,
+            "value": "Veracruz",
+            "sort": 29
+          },
+          {
+            "id": 1370714,
+            "value": "Yucatán",
+            "sort": 30
+          },
+          {
+            "id": 1370716,
+            "value": "Zacatecas",
+            "sort": 31
+          }
+        ]
+      },
+      {
+        "id": 2105605,
+        "name": "QL",
+        "code": null,
+        "type": "multiselect",
+        "type_id": 5,
+        "type_name": "Checkbox (multiselect)",
+        "entity_type": "leads",
+        "sort": 513,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1379005,
+            "value": "Si",
+            "sort": 500
+          },
+          {
+            "id": 1379007,
+            "value": "No",
+            "sort": 1
+          }
+        ]
+      },
+      {
+        "id": 2106037,
+        "name": "Formulario",
+        "code": "FORM_CARD",
+        "type": "url",
+        "type_id": 10,
+        "type_name": "URL",
+        "entity_type": "leads",
+        "sort": 501,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 2106095,
+        "name": "FB | ¿Buscas vivir en Mérida?",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 524,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106097,
+        "name": "FB | ¿Me interesa la casa para?",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 525,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106099,
+        "name": "FB | Rango de presupuesto",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 526,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106101,
+        "name": "FB | Tiempo de compra",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 527,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106103,
+        "name": "FB | Financiamiento",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 528,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106109,
+        "name": "FB | Agendar llamada",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 529,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106113,
+        "name": "FB | ¿Agendar recorrido?",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 530,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106115,
+        "name": "FB | Estado",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 531,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106203,
+        "name": "Bot Activo",
+        "code": null,
+        "type": "checkbox",
+        "type_id": 28,
+        "type_name": "Checkbox",
+        "entity_type": "leads",
+        "sort": 516,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2106463,
+        "name": "Ultimo mensaje",
+        "code": null,
+        "type": "textarea",
+        "type_id": 4,
+        "type_name": "Texto multilínea",
+        "entity_type": "leads",
+        "sort": 517,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2107015,
+        "name": "Foto a enviar",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 518,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2107051,
+        "name": "Me interesa la casa para",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 540,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380031,
+            "value": "Vivir",
+            "sort": 500
+          },
+          {
+            "id": 1380033,
+            "value": "Invertir",
+            "sort": 1
+          },
+          {
+            "id": 1380035,
+            "value": "Soy Broker",
+            "sort": 2
+          }
+        ]
+      },
+      {
+        "id": 2107053,
+        "name": "¿Buscas vivir en Mérida?",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 541,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380037,
+            "value": "Si",
+            "sort": 500
+          },
+          {
+            "id": 1380039,
+            "value": "No",
+            "sort": 1
+          }
+        ]
+      },
+      {
+        "id": 2107055,
+        "name": "Mi presupuesto es de",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 542,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380041,
+            "value": "Más de $5 Millones",
+            "sort": 500
+          },
+          {
+            "id": 1380043,
+            "value": "Entre $4.5 y $5 Millones",
+            "sort": 1
+          },
+          {
+            "id": 1380045,
+            "value": "Entre $3 y $4 millones",
+            "sort": 2
+          }
+        ]
+      },
+      {
+        "id": 2107057,
+        "name": "Planeo comprar mi casa:",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 543,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380047,
+            "value": "De inmediato",
+            "sort": 500
+          },
+          {
+            "id": 1380049,
+            "value": "En 3 a 6 meses",
+            "sort": 1
+          },
+          {
+            "id": 1380051,
+            "value": "En más de 6 meses",
+            "sort": 2
+          }
+        ]
+      },
+      {
+        "id": 2107059,
+        "name": "Planeo adquirir mi vivienda mediante",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 544,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380053,
+            "value": "Crédito bancario",
+            "sort": 500
+          },
+          {
+            "id": 1380055,
+            "value": "Crédito Fovisste",
+            "sort": 1
+          },
+          {
+            "id": 1380057,
+            "value": "Recurso propio",
+            "sort": 2
+          },
+          {
+            "id": 1380059,
+            "value": "Otro",
+            "sort": 3
+          }
+        ]
+      },
+      {
+        "id": 2107227,
+        "name": "Nombre confirmado",
+        "code": null,
+        "type": "checkbox",
+        "type_id": 28,
+        "type_name": "Checkbox",
+        "entity_type": "leads",
+        "sort": 519,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2107571,
+        "name": "FB | Presupuesto Bosques",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 532,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380713,
+            "value": "Menos de $3MDP",
+            "sort": 500
+          },
+          {
+            "id": 1380715,
+            "value": "Entre $3MDP y $3.5MDP",
+            "sort": 1
+          },
+          {
+            "id": 1380717,
+            "value": "Entre $3.5MDP y $4MDP",
+            "sort": 2
+          },
+          {
+            "id": 1380719,
+            "value": "Más de $4MDP",
+            "sort": 3
+          }
+        ]
+      },
+      {
+        "id": 2107573,
+        "name": "FB | Forma de pago Bosques",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 533,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380721,
+            "value": "Crédito Infonavit",
+            "sort": 500
+          },
+          {
+            "id": 1380723,
+            "value": "Crédito Bancario",
+            "sort": 1
+          },
+          {
+            "id": 1380725,
+            "value": "FOVISSSTE/Pemex/Banjercito",
+            "sort": 2
+          },
+          {
+            "id": 1380727,
+            "value": "Recurso Propio",
+            "sort": 3
+          },
+          {
+            "id": 1380729,
+            "value": "Otro",
+            "sort": 4
+          }
+        ]
+      },
+      {
+        "id": 2107575,
+        "name": "FB | Preventa o inmediado Bosques",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 535,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380731,
+            "value": "Entrega inmediada",
+            "sort": 500
+          },
+          {
+            "id": 1380733,
+            "value": "Preventa",
+            "sort": 1
+          }
+        ]
+      },
+      {
+        "id": 2107611,
+        "name": "FB | ¿Te interesa adquirir una Casa en una privada al Norte de Mérida?",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 536,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2107613,
+        "name": "FB | ¿Con qué crédito estás pensando adquirir tu propiedad?",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 537,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2107615,
+        "name": "FB | Déjanos tu WhatsApp para que te contactemos por favor.",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 538,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2107625,
+        "name": "Cita Generada IA",
+        "code": null,
+        "type": "checkbox",
+        "type_id": 28,
+        "type_name": "Checkbox",
+        "entity_type": "leads",
+        "sort": 520,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2107791,
+        "name": "FB | Presupuesto Cumbres",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "leads",
+        "sort": 534,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380835,
+            "value": "Menos de $1,5MDP",
+            "sort": 500
+          },
+          {
+            "id": 1380837,
+            "value": "Entre $1,5MDP – $1,7MDP",
+            "sort": 1
+          },
+          {
+            "id": 1380839,
+            "value": "Entre $1,7MDP – $1,8MDP",
+            "sort": 2
+          },
+          {
+            "id": 1380841,
+            "value": "Entre $1,8MDP – $2MDP",
+            "sort": 3
+          },
+          {
+            "id": 1380843,
+            "value": "Más de $2MDP",
+            "sort": 4
+          }
+        ]
+      },
+      {
+        "id": 2107795,
+        "name": "Ultime Mensaje Por",
+        "code": null,
+        "type": "multiselect",
+        "type_id": 5,
+        "type_name": "Checkbox (multiselect)",
+        "entity_type": "leads",
+        "sort": 521,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1380857,
+            "value": "Humano",
+            "sort": 500
+          },
+          {
+            "id": 1380859,
+            "value": "Kommo",
+            "sort": 1
+          },
+          {
+            "id": 1380861,
+            "value": "IA",
+            "sort": 2
+          },
+          {
+            "id": 1380863,
+            "value": "Lead",
+            "sort": 3
+          }
+        ]
+      },
+      {
+        "id": 2108030,
+        "name": "Estatus de remarketing",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 514,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2108172,
+        "name": "Asesor",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "leads",
+        "sort": 522,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      }
+    ],
+    "contacts": [
+      {
+        "id": 1681774,
+        "name": "Posición",
+        "code": "POSITION",
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "contacts",
+        "sort": 504,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681776,
+        "name": "Teléfono",
+        "code": "PHONE",
+        "type": "multitext",
+        "type_id": 11,
+        "type_name": "Textarea",
+        "entity_type": "contacts",
+        "sort": 4,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681778,
+        "name": "Email",
+        "code": "EMAIL",
+        "type": "multitext",
+        "type_id": 11,
+        "type_name": "Textarea",
+        "entity_type": "contacts",
+        "sort": 6,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 2086316,
+        "name": "Términos y condiciones",
+        "code": "USER_AGREEMENT",
+        "type": "checkbox",
+        "type_id": 28,
+        "type_name": "Checkbox",
+        "entity_type": "contacts",
+        "sort": 509,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2093462,
+        "name": "Teléfono Dos",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "contacts",
+        "sort": 510,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2093560,
+        "name": "Fecha de nacimiento",
+        "code": null,
+        "type": "text",
+        "type_id": 1,
+        "type_name": "Texto",
+        "entity_type": "contacts",
+        "sort": 503,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2093562,
+        "name": "Género",
+        "code": null,
+        "type": "select",
+        "type_id": 3,
+        "type_name": "Select (dropdown)",
+        "entity_type": "contacts",
+        "sort": 508,
+        "is_system": false,
+        "is_deletable": true,
+        "options": [
+          {
+            "id": 1370584,
+            "value": "Masculino",
+            "sort": 500
+          },
+          {
+            "id": 1370586,
+            "value": "Femenino",
+            "sort": 1
+          }
+        ]
+      },
+      {
+        "id": 2101645,
+        "name": "Fecha del apartado",
+        "code": null,
+        "type": "date_time",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "contacts",
+        "sort": 506,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2101647,
+        "name": "Entrega de casa",
+        "code": null,
+        "type": "date_time",
+        "type_id": null,
+        "type_name": "Tipo no especificado",
+        "entity_type": "contacts",
+        "sort": 507,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      },
+      {
+        "id": 2101649,
+        "name": "Lote",
+        "code": null,
+        "type": "numeric",
+        "type_id": 2,
+        "type_name": "Texto numérico",
+        "entity_type": "contacts",
+        "sort": 505,
+        "is_system": false,
+        "is_deletable": true,
+        "options": []
+      }
+    ],
+    "companies": [
+      {
+        "id": 1681776,
+        "name": "Teléfono",
+        "code": "PHONE",
+        "type": "multitext",
+        "type_id": 11,
+        "type_name": "Textarea",
+        "entity_type": "companies",
+        "sort": 4,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681778,
+        "name": "Email",
+        "code": "EMAIL",
+        "type": "multitext",
+        "type_id": 11,
+        "type_name": "Textarea",
+        "entity_type": "companies",
+        "sort": 6,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681780,
+        "name": "Web",
+        "code": "WEB",
+        "type": "url",
+        "type_id": 10,
+        "type_name": "URL",
+        "entity_type": "companies",
+        "sort": 8,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      },
+      {
+        "id": 1681782,
+        "name": "Dirección",
+        "code": "ADDRESS",
+        "type": "textarea",
+        "type_id": 4,
+        "type_name": "Texto multilínea",
+        "entity_type": "companies",
+        "sort": 10,
+        "is_system": false,
+        "is_deletable": false,
+        "options": []
+      }
+    ],
+    "catalogs": []
+  }
+}

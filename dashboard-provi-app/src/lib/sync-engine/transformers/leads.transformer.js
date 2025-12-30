@@ -14,20 +14,6 @@ export class LeadsTransformer {
             return null;
         };
 
-        const getCheckbox = (lead, fieldId) => {
-            const field = lead.custom_fields_values?.find(f => f.field_id === fieldId);
-            return field?.values?.[0]?.value === 'Si' || field?.values?.[0]?.value === true || false;
-        };
-
-        const extractFBData = (lead) => {
-            const fbFields = lead.custom_fields_values?.filter(f => f.field_name?.startsWith('FB |')) || [];
-            const data = {};
-            fbFields.forEach(f => {
-                data[f.field_name] = f.values?.[0]?.value || null;
-            });
-            return data;
-        };
-
         const pipeline = pipelines[kommoLead.pipeline_id];
         const status = pipeline?.statuses?.find(s => s.id === kommoLead.status_id);
 
@@ -39,35 +25,24 @@ export class LeadsTransformer {
             status_id: kommoLead.status_id,
             status_name: status?.name || 'Desconocido',
             responsible_user_id: kommoLead.responsible_user_id,
-            responsible_user_name: (() => {
-                const name = users[kommoLead.responsible_user_id]?.name || 'Desconocido';
-                const admins = ['Israel Domínguez', 'EMILIO GUZMAN', 'Martha Quijano', 'Carlos Garrido', 'MARKETING'];
-                return admins.includes(name) ? 'Por asignar' : name;
-            })(),
+            responsible_user_name: users[kommoLead.responsible_user_id]?.name || 'Desconocido',
             price: kommoLead.price || 0,
             created_at: new Date(kommoLead.created_at * 1000).toISOString(),
             updated_at: new Date(kommoLead.updated_at * 1000).toISOString(),
             closed_at: kommoLead.closed_at ? new Date(kommoLead.closed_at * 1000).toISOString() : null,
             is_deleted: kommoLead.is_deleted || false,
 
-            // Custom fields mapping
+            // Custom fields (IDs based on brief)
             utm_source: getCustomField(kommoLead, 1681790),
             utm_campaign: getCustomField(kommoLead, 1681788),
             utm_medium: getCustomField(kommoLead, 1681786),
             desarrollo: getCustomField(kommoLead, 2093484),
             modelo: getCustomField(kommoLead, 2093544),
-            fuente: getCustomField(kommoLead, 2093540),
-            medio: getCustomField(kommoLead, 2093542),
-            is_cita_agendada: getCheckbox(kommoLead, 2093478),
-            is_visitado: getCheckbox(kommoLead, 2093480),
-            motivo_no_cierre: getCustomField(kommoLead, 2093556),
-            lead_score: getCustomField(kommoLead, 2105605),
-            fb_data: extractFBData(kommoLead),
 
             // Contact info (if embedded)
             contact_name: kommoLead._embedded?.contacts?.[0]?.name || null,
-            contact_email: null,
-            contact_phone: null,
+            contact_email: getContactEmail(kommoLead),
+            contact_phone: getContactPhone(kommoLead),
 
             last_synced_at: new Date().toISOString()
         };
