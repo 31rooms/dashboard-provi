@@ -1,7 +1,4 @@
 import axios from 'axios';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 const KOMMO_SUBDOMAIN = process.env.KOMMO_SUBDOMAIN;
 const KOMMO_ACCESS_TOKEN = process.env.KOMMO_ACCESS_TOKEN;
